@@ -1,0 +1,73 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    body{
+        padding: 10px;
+        background-color: rgb(92, 90, 90);
+        height:100vh;
+        box-sizing: border-box;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_nav {
+        text-align: center;
+        border-radius: 4px;
+        align-items: center;
+        display: flex;
+        border: 2px solid rgba(255, 255, 255, 0.6); 
+        padding: 2px 2px;
+        transition: 0.5s;
+        gap: 18px;
+        background-color: rgba(39, 36, 36, 0.2); 
+        color: white; 
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .link_nav{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .container_nav:hover{
+        background-color: rgba(255, 255, 255, 0.8); 
+        color: rgb(32, 32, 32); 
+        border: 2px solid rgba(29, 28, 28, 0.8);
+        transition: 0.7s;
+    }
+    .container_nav:hover .link_nav {
+        color: rgb(32, 32, 32); 
+        transition: 0.7s;
+    }
+    .options_menu {
+        display: none;
+        border: 1px solid rgba(82, 74, 74, 0.89) ;
+        background-color: rgba(39, 36, 36, 0.15); 
+        margin-top: 6px;
+        width: 107.5px;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 8px;
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+    }
+    
+    .options_links {
+        display: flex;
+        background-color: rgba(61, 52, 52, 0.8); 
+        text-decoration: none;
+        color: #f4f4f4; 
+        padding: 8px;
+        border-radius: 4px;
+    }
+    
+    .options_links:hover {
+        background-color: rgba(54, 48, 48, 0.9);
+    }
+ 
